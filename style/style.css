@@ -13,6 +13,11 @@ body {
   --btn-color: #41c3e7;
   --text-color: #764abc;
 }
+
+body,
+html {
+  overflow-x: hidden;
+}
 a {
   display: inline-block;
   text-decoration: none;
@@ -790,7 +795,7 @@ a {
 }
 @media screen and (max-width: 576px) {
   .line-2 {
-    font-size: 24px;
+    font-size: 24px !important;
   }
   .col-25 {
     width: 100%;
